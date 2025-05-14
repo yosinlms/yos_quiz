@@ -17,7 +17,8 @@ class StartScreen extends StatelessWidget {
           SizedBox(height: 24),
           Text(
             'Start The Quiz, Flutter Is Fun',
-            style: TextStyle(color: Colors.amber, fontSize: 24),
+            style: TextStyle(
+                color: const Color.fromARGB(255, 36, 171, 212), fontSize: 24),
           ),
           SizedBox(height: 24),
           OutlinedButton.icon(
